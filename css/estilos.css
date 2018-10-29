@@ -21,10 +21,32 @@ propiedades
 body{
     font-family: 'Source Sans Pro',sans-serif;
 }
-/*h1 {*/
-    /*font-family: "Times New Roman";*/
-/*}*/
-
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Fjalla One', sans-serif;
+    /*tipo de fuente*/
+    font-weight: normal;
+    /*estilos de la funete*/
+    /*font-style: italic;*/
+
+}
+h1{
+    font-size: 40px;
+    /*tamaño de salto de linea*/
+    line-height: 1.5em;
+    /*Espacio entre letras*/
+    letter-spacing: -.2px;
+    /*cambiar de mayusculas a minusculas, primera letra*/
+    /*text-transform: uppercase;*/
+    /*decoracion del texto*/
+    /*text-decoration: dashed;*/
+
+}
+.hero{
+    height: 300px;
+}
+.project-details{
+    width: 500px;
+}
+.project-imageContainer{
+    width: 500px;
 }
