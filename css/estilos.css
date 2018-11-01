@@ -44,7 +44,7 @@ h1{
     /*decoracion del texto*/
     /*text-decoration: dashed;*/
     color: #fff;
-
+    margin: 100px 150px 70px 30px;
 }
 h1 strong{
     color: #026fff;
@@ -75,6 +75,7 @@ h1 strong{
     /*border-style: solid;*/
     border: 1px solid gray;
     border-radius: 10px;
+    margin-bottom: 15px;
 }
 .project-details{
     width: 500px;
