@@ -24,6 +24,7 @@ propiedades
 /*celeste = #026fff*/
 body{
     font-family: 'Source Sans Pro',sans-serif;
+    margin: 0;
 }
 h1,h2,h3,h4,h5,h6 {
     font-family: 'Fjalla One', sans-serif;
@@ -65,6 +66,9 @@ h1 strong{
     background-repeat: no-repeat;
     background-position-x: right;
 }
+.portfolio{
+    background-color: #fafafa;
+}
 .project{
     /*border-top: 10px solid red;*/
     /*border-right: 10px solid green;*/
@@ -75,11 +79,26 @@ h1 strong{
     /*border-style: solid;*/
     border: 1px solid gray;
     border-radius: 10px;
+    margin: 10px;
     margin-bottom: 15px;
+    padding: 20px;
+    background: white;
 }
 .project-details{
     width: 500px;
 }
 .project-imageContainer{
     width: 500px;
+}
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;*/
+    /*flex-direction: column;*/
+}
+.box{
+    width: 50px;
+    height: 50px;
+    border: 1px solid red;
+
+    flex-shrink: 0;
 }
